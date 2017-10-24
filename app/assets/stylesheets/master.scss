@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,400');
 
 
 .clear {
@@ -9,7 +10,7 @@
     font-weight: bold;
     position: relative;
     border-radius: 100%;
-    background: #F5A30A;
+    background: #C700E5;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -25,48 +26,60 @@
 }
 
 .slogan {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top: 26px;
+  font-family: 'Poppins', sans-serif;
+font-weight: 100;
+  padding-top: 36px;
 }
 
 .links {
-  padding-top: 26px;
+  padding-top: 36px;
+  padding-right: 26px;
 }
 .links a {
   color: black;
-  font-size: 25px;
-  border-bottom: 1px solid #F5A30A;
-  font-family: 'ralewayregular', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  font-weight: 100;
+
 }
 
-header {
-  border-top: 9px solid #222222;
+.links a:hover {
+  color: #C700E5;
+  font-weight: 400;
 }
+
+
 
 hr {
   clear: both;
 }
 
 h1 {
-  font-family: 'quicksandregular', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'quicksandregular', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
+  font-weight: 100;
 }
 
 .next-quote {
-  color: #F5A30A;
-  font-family: 'quicksandregular', sans-serif;
+  color: #C700E5;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  font-weight: 100;
+
 }
 
+
+
 .footer-blurb {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: right;
   font-size: 10px;
 }
@@ -76,7 +89,7 @@ h2 {
 }
 
 .about {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 26px;
 }
 
@@ -87,14 +100,15 @@ h2 {
 }
 
 .modal {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 span {
-  color: #dddddd;
-  font-family: 'quicksandregular', sans-serif;
+  color: #C700E5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 ::selection {
-  background-color: #F5A30A;
+  background-color: #C700E5;
 }

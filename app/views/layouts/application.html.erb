@@ -10,7 +10,7 @@
 
   <body>
     <header class="row">
-      <div class="col-3">
+      <div class="col-4">
         <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
         <br />
@@ -22,12 +22,12 @@
       </div>
       <% end %>
       </div>
-      <div class="col col-sm-4 hidden-xs-down slogan">
+      <div class="col col-sm-4 hidden-xs-down slogan text-center">
         What you always wanted to know about Sweden and the Swedes
       </div>
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-10 offset-1 offset-sm-0 col-sm-4 links text-right">
      <!-- Button trigger modal -->
-   <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+   <%= link_to 'Add a quote', '#', data: {toggle: 'modal', target: '#myModal'} %>
    &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
     </header>
@@ -77,12 +77,10 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6">
-          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+        <div class="col-12 col-md-8 offset-md-2 text-center">
+          <%= link_to "Show random quote", root_path, class: 'next-quote' %>
         </div>
-        <div class="col-12 col-sm-6 footer-blurb">
-          Brought to you by a real Swede - Magnus
-        </div>
+
       </div>
     </div>
   </div>
